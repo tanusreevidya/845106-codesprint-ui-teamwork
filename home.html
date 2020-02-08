@@ -11,38 +11,13 @@
  
  header{
    
-  /* background-image: url('flower1.jpg');   */
    background-position: 100% 100%;
    background-repeat: no-repeat;
     left: 0;
     padding: 8px 8px 8px 32px;
     background-size: cover;
 }
-      /*
-      .header img {
-  float: left;
-  width: 100px;
-  height: 100px;
-  background: #555;
-}
-.header h6 {
-  position: relative;
-  top: 18px;
-  left: 10px;
-  font-size: small;
-  font-weight: bold;
-} */
-/* .navbar-toggle {
-   margin: 23px 0; 
-}
-.navbar-nav, .navbar-nav li, .navbar-nav li a {
-  height: 80px;
-  line-height: 80px;
-}
-.navbar-nav li a {
-  padding-top: 0;
-  padding-bottom:0;
-} */
+      
 .sidenav {
   height: 100%;
   width: 0;
@@ -86,10 +61,7 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-/* .header p {
-  font-style:italic;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-} */
+
 body {
   font-family: "Lato", sans-serif;
   background-image: url('pastelpink.jpg');
@@ -103,11 +75,10 @@ body {
         
   <header >
     <div class=" container w-100">
-        <!-- <a href="#"><img src="flower1.jpg" width="100" height="100"> -->
         <ul class="nav  justify-content-center">
             <li class="nav-item">
                 <a href="#" class="navbar-brand ">
-                    <img src="transparentimage" style=" border-radius: 50% ; opacity: 1.0 ;border-style: double; border-color: black; " width="100" height="100" alt="logo" >
+                    <img src="./assets/images/transparentimage.jpg" style=" border-radius: 50% ; opacity: 1.0 ;border-style: double; border-color: black; " width="100" height="100" alt="logo" >
                 </a>
             </li>
             <li class="nav-item">
@@ -131,23 +102,15 @@ body {
 </header>
 <div id="mySidenav" class="sidenav bg-dark sidenav-expand-md">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <a href="home.html">Home</a>
+    <a href="placeorder.html">Place Order</a>
+    <a href="viewlist.html">View Order</a>
+    <a href="contactUs.html">Contact Us</a>
   </div> 
   <div id="main">
     <span style="font-size:20px;cursor:pointer" onclick="openNav()">&#9776; </span>  
   </div>
 
-    <!-- <div class="jumbatron p-3 mb-2 col-6">
-  <p > The major advantage is price: 
-    You get a high quality design for just $20-$70. 
-    You don’t have to hire a web designer or web design studio. 
-    Second advantage is time frame: 
-    It usually takes 5-15 days for a good designer to produce a
-     web page of such quality.</p>
-</div> -->
 <br>
 <div class="jumbotron-fluid w-100 " >
   <h3 class="display-4 text-center" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Gifts For a LifeTime</h3>
@@ -156,14 +119,13 @@ body {
   <div class="text-center">
   <a href="readmore.html" class="btn btn-dark" role="button">Read More</a>
 </div></div>
- <!-- </div> 
-</div> -->
+
 
 <div class="card-deck p-5">
   <div class="card col-4 w-50 m-5 bg-dark">
       <div class="card-body">
           <h4 class="card-title text-dark text-center">BlackLovers</h4>
-          <img class="card-img-top" src="card1.jpg" alt="" >
+          <img class="card-img-top" src="./assets/images/card1.jpg" alt="" >
           <div class="text-center">
             <button class="btn btn-dark btn btn-outline-light" data-container="body" data-toggle="popover" 
             data-placement="bottom" data-content="INR 200">
@@ -176,7 +138,7 @@ body {
   <div class="card col-4 w-50 m-5 bg-dark">
       <div class="card-body">
           <h4 class="card-title text-center text dark">Pinkies</h4>
-          <img class="card-img-top" src="card1.jpg" alt="">
+          <img class="card-img-top" src="./assets/images/card1.jpg" alt="">
           <div class="text-center">
           <button class="btn btn-dark btn btn-outline-light" data-container="body" data-toggle="popover" 
             data-placement="bottom" data-content="INR 300">
@@ -189,7 +151,7 @@ body {
   <div class="card col-4 w-50 m-5 bg-dark">
       <div class="card-body">
           <h4 class="card-title text-center text-dark">Blueberries</h4>
-          <img class="card-img-top" src="card1.jpg" alt="">
+          <img class="card-img-top" src="./assets/images/card1.jpg" alt="">
           <div class="text-center">
             <button class="btn btn-dark btn btn-outline-light" data-container="body" data-toggle="popover" 
             data-placement="bottom" data-content="INR 400">
@@ -203,12 +165,11 @@ body {
 </div>
 </div>
 
-<!-- card -deck 2 -->
 <div class="card-deck p-5">
   <div class="card col-4 w-50 m-5 bg-dark">
       <div class="card-body">
           <h4 class="card-title text-dark text-center">BlackLovers</h4>
-          <img class="card-img-top" src="card1.jpg" alt="">
+          <img class="card-img-top" src="./assets/images/card1.jpg" alt="">
           <div class="text-center">
             <button class="btn btn-dark btn btn-outline-light" data-container="body" data-toggle="popover" 
             data-placement="bottom" data-content="INR 50">
@@ -221,7 +182,7 @@ body {
   <div class="card col-4 w-50 m-5 bg-dark">
       <div class="card-body">
           <h4 class="card-title text-center text dark">Yellow</h4>
-          <img class="card-img-top" src="card1.jpg" alt="">
+          <img class="card-img-top" src="./assets/images/card1.jpg" alt="">
           <div class="text-center">
             <button class="btn btn-dark btn btn-outline-light" data-container="body" data-toggle="popover" 
             data-placement="bottom" data-content="INR 50">
@@ -234,7 +195,7 @@ body {
   <div class="card col-4 w-50 m-5 bg-dark">
       <div class="card-body">
           <h4 class="card-title text-center text-dark">Orange</h4>
-          <img class="card-img-top" src="card1.jpg" alt="">
+          <img class="card-img-top" src="./assets/images/card1.jpg" alt="">
           <div class="text-center">
             <button class="btn btn-dark btn btn-outline-light" data-container="body" data-toggle="popover" 
             data-placement="top" data-content="INR 60">
@@ -247,7 +208,6 @@ body {
 </div>
 <br>
 <br>
-<!-- <button type="button" class="btn btn-dark btn-lg btn-block">Place Order</button> -->
 <a href="placeorder.html" class="btn btn-dark btn-lg btn-block display-5" role="button">Place Order</a>
 <br>
 <br>
